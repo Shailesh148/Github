@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Shailesh Mohan Bhattarai</title>
+		<script src = "bootstrap.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="bootstrap.css" rel="stylesheet">
+		<style>
+
+		.header{
+			font-weight:bold;
+			font-size:30px;
+			color:white;
+			margin-top:4%;
+			margin-left:5%;
+		}
+
+		.frontside{
+			background-image:url("Nudel-Blue-Light.png");
+			background-size:100%;
+			min-height:600px;
+			opacity:1;
+		}
+
+		.formss{
+			margin-top:60%;
+			border-radius:5px;
+			margin-left:45%;
+			display:block;
+		}
+
+
+		.icons{
+			border-radius:100%;
+			padding:35px;
+			font-size:18px;
+			background-color:#BF9DCB;
+		}
+
+
+		.footer{
+
+  			background-color:#652D86;
+  			color:white;
+  			padding-top: 20px;
+  			padding-bottom:10px;
+  			text-align: center;
+  			font-weight: bold;
+		}
+
+		.carousels{
+			margin-top:10%;
+			margin-bottom:2%;
+
+		}
+
+		#slides {
+      	display:none;
+      	}
+		
+		</style>
+		<script src="jquery-1.9.1.min.js"></script>
+		<script src="jssor.slider.mini.js"></script>
+		<script>
+    		jQuery(document).ready(function ($) {
+        	var options = { $AutoPlay: true };
+        	var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+   			 });
+		</script>
+
+	<head>
+	<body>
+		<div class="container-fluid" style="background-color:#652D86">
+		<div class = "row" style="min-height:75px">
+			<div class="col-md-6 col-xs-6 col-sm-6">
+				<h1 class="header">Hello Everyone</h1>
+
+			</div>
+
+			<div class="col-md-6 col-xs-6 col-sm-6">
+		<ul class="nav nav-pills navbar-right nav-fixed-top">
+ 			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="#">About Me</a></li>
+  			<li><a href="#">Contact Me</a></li>
+		</ul>
+
+	</div>
+	</div>
+		</div>  
+		<!--end of the first container part  -->
+
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 col-sm-6 frontside">
+					
+						<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+    <!-- Slides Container -->
+    					<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 400px; margin-top:10%;">
+        				<div><img u="image" src="biochemistry.png" /></div>
+        				<div><img u="image" src="cryopreservation.png" /></div>
+    					</div>
+						</div>
+				</div>
+
+
+				<div class="col-md-6 col-xs-12 col-sm-6 frontside">
+
+					<form role="form" class="formss">
+  						<div class="form-group">
+    						<label for="exampleInputEmail1" style="font-size:20px">Send Me A Feedback</label>
+    						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  						</div>
+  						<textarea class="form-control" rows="3"></textarea>
+  						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+
+				
+
+				</div>
+				
+
+			</div>
+			<div class = "row footer">
+  				<div class = "container">
+  				<div  class = "col-md-4 col-sm-12 col-xs-12">  
+				<div class = "glyphicon glyphicon-phone-alt icons"></div>
+				<br/><br/>
+				<span style="margin-top:8%"><p style="color:rgb(223, 217, 207)">+91-8978938067<br/>+977-9849284964<p></span> 
+
+				</div>
+				<div class = "col-md-4 col-sm-12 col-xs-12">
+				<div class = "glyphicon glyphicon-comment icons"></div>
+				<br/><br/>
+ 				<span style="margin-top:8%"><p style="color:rgb(223, 217, 207)">shailesh.bhattarai148@gmail.com</span>
+ 				</div> 
+
+				<div  class = "col-md-4 col-sm-12 col-xs-12">
+				<div class = "glyphicon glyphicon-map-marker icons"></div>
+				<br/><br/>
+				<span style="margin-top:8%"><p style="color:rgb(223, 217, 207)">National Institue Of Technology<br/>Warangal,506004</span>
+
+		</div> 
+	</div>
+</div>
+
+
+		<!-- for the footer of the website-->
+		
+		</div>
+	</body>	
+</html>
